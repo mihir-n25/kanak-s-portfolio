@@ -6,13 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@gsap/react": "^2.1.0",
     "@react-three/drei": "^9.105.4",
     "@react-three/fiber": "^8.16.2",
     "@types/three": "^0.163.0",
+    "gh-pages": "^6.1.1",
     "gsap": "^3.12.5",
     "next": "14.2.2",
     "react": "^18",

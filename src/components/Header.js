@@ -25,11 +25,11 @@ const Header = () => {
 
   return (
     <div  className="p-10 flex items-center justify-between opacity-0 features_title">
-      <div className=" font-bold text-[25px] ml-5 cursor-pointer">Kanak's Portfolio</div>
+      <div className=" font-bold text-[25px] ml-5 cursor-pointer">Kanak&apos;s Portfolio</div>
       <div className="hidden sm:flex">
         <ul className="flex gap-12 text-[22px] leading-15">
           {navLinks.map((navItems, i) => (
-            <li className="text-blue-200 hover:text-white cursor-pointer font-medium">
+            <li key={i} className="text-blue-200 hover:text-white cursor-pointer font-medium">
                 <a>{navItems.title}</a>
             </li>
           ))}
