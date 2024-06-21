@@ -71,7 +71,7 @@ const Home = () => {
       {renderLetters('Kanak' , 'first')}
       </p>
     <p className="text-[clamp(2rem,13vmin,13rem)] font-extrabold leading-none tracking-tight ml-14">
-    {renderLetters('Kappoor' , 'second')}
+    {renderLetters('Kapoor' , 'second')}
     </p>
     <p className="job-title text-[clamp(1.3rem,10.5vmin,10.5rem)] text-transparent font-extrabold leading-none mt-14 ml-14 block bg-gradient-to-tr from-slate-50 via-slate-500 to-slate-50 bg-clip-text">
     Creative Developer
