@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // basePath : "/kanak-pFolio",
-    // output : 'export'
+    basePath : "/kanak-s-portfolio",
+    output : 'export'
 };
 
 export default nextConfig;
